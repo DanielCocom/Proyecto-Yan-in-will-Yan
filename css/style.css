@@ -1,0 +1,48 @@
+html {
+  width: min(100%, 950%);
+}
+
+#navigation-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#navigation-bar a {
+  text-decoration: none;
+  color: black;
+}
+
+#line-color{
+  width: 100vw;
+  height: 5px;
+  background-color: #660022;
+}
+
+.splide {
+  width: 100vw;
+  height: auto;
+  margin: auto;
+}
+.splide__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-with-text {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.section-with-text h2{
+  font-size: 30px;
+  margin-bottom: 10px;
+
+}
+.section-with-text p{
+  font-size: 20px;
+}
